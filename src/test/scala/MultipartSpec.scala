@@ -53,7 +53,7 @@ class MultipartSpec extends AsyncWordSpec with EitherValues with MustMatchers {
 
   "Multipart.multipartParser" must {
     "work" in {
-      fail("this deadlocks")
+      fail("comment out this line to see the deadlock")
 
       lazy val body =
         """

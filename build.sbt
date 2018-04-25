@@ -1,9 +1,9 @@
 name := "play-accumulator-source"
 
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.5"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play" % "2.6.0-RC1",
+  "com.typesafe.play" %% "play" % "2.6.13",
   "org.slf4j" % "slf4j-simple" % "1.7.21",
-  "org.scalatestplus.play" %% "scalatestplus-play" % "3.0.0-RC1" % "test"
+  "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % "test"
 )
